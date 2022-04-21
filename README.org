@@ -1,0 +1,21 @@
+#+Title: MVNpermute
+
+* Description
+  If you have a vector of data that follows a multivariate normal
+  distribution with a mean determined by a matrix of covariates and a
+  known covariance matrix, this package allows you to generate
+  permutation based resamples of your data. This is useful if you wish
+  to do a permutation based test, as opposed to doing a parametric
+  bootstrap, for instance. The distribution of the generated samples
+  will be identical to the original multivariate normal distribution
+  but will not, in general, be a literal permutation of the original
+  values. This is because the process of estimating the mean from
+  the covariate data reduces the dimensionality of the space in which
+  to perform the permutation. For more detail see Abney M (2015)
+  Permutation Testing in the Presence of Polygenic Variation, Genetic
+  Epidemiology, 39, 249-258, and Abney M et al (2000) Estimation of
+  Variance Components of Quantitative Traits in an Inbred Population,
+  American Journal of Human Genetics, 66, 629-650.
+
+* Installation
+  Install this package from CRAN using =install.packages("MVNpermute")=.

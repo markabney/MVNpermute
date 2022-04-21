@@ -3,11 +3,13 @@ Type: Package
 Title: Generate New Multivariate Normal Samples from Permutations
 Version: 1.0.1
 Date: 2022-04-11
-Author: Mark Abney
-Maintainer: Mark Abney <abney@uchicago.edu>
+Authors@R: person("Mark", "Abney", email = "abney@uchicago.edu",
+                  role = c("cre", "aut"))
 Description: Given a vector of multivariate normal data, a matrix of
     covariates and the data covariance matrix, generate new multivariate normal
     samples that have the same covariance matrix based on permutations of
     the transformed data residuals.
 License: GPL (>=3.0)
 Imports: stats
+RoxygenNote: 7.1.2
+URL: https://github.com/markabney/MVNpermute

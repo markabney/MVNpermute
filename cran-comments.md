@@ -1,13 +1,9 @@
 ## Test environments
-* local OS X install, R 3.1.2
+* local OS X install, R 4.1.3
 * win-builder (devel and release)
 
 ## R CMD check results
-  There were no ERRORS or WARNINGS.
-  
-  There was one NOTE:
-  * New submission
-    The possibly misspelled words are not misspelled
+  There were no ERRORS, WARNINGS or NOTES.
+
 ## Downstream dependencies
   There are no downstream dependencies.
-  
