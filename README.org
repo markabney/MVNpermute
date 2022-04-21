@@ -13,9 +13,10 @@
   the covariate data reduces the dimensionality of the space in which
   to perform the permutation. For more detail see Abney M (2015)
   Permutation Testing in the Presence of Polygenic Variation, Genetic
-  Epidemiology, 39, 249-258, and Abney M et al (2000) Estimation of
-  Variance Components of Quantitative Traits in an Inbred Population,
-  American Journal of Human Genetics, 66, 629-650.
+  Epidemiology, 39, 249-258, and Abney M et al (2002) Quantitative
+  Trait Homozygosity and Association Mappin and Empirical Genome-wide
+  Significance in Large Complex Pedigrees: Fasting Serum Insulin Levels
+  in the Hutterites, American Journal of Human Genetics, 70, 920-934.
 
 * Installation
   Install this package from CRAN using =install.packages("MVNpermute")=.
