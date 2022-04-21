@@ -11,5 +11,6 @@ Description: Given a vector of multivariate normal data, a matrix of
     the transformed data residuals.
 License: GPL (>=3.0)
 Imports: stats
+Encoding: UTF-8
 RoxygenNote: 7.1.2
 URL: https://github.com/markabney/MVNpermute
